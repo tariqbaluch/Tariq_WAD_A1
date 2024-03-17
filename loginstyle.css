@@ -1,0 +1,78 @@
+/* CSS for Login Page */
+/* CSS for Header HTML Area */
+#header1 {
+  background-color: blue; /* Set background color to blue */
+  color: white; /* Set text color to white */
+  padding: 20px;
+  overflow: hidden; /* Clear floats */
+}
+
+#header1 h1 {
+  margin: 10px;
+  float: left;
+}
+
+#header1 img {
+  float: left; /* Float the logo to the left */
+  margin-right: 10px; /* Add margin to the right of the logo */
+}
+
+#header1 h5 {
+  margin: 0;
+  float: right; /* Align links to the right */
+}
+
+#header1 h5 a {
+  color: white; /* Set link color to white */
+  text-decoration: none;
+  border-bottom: none; /* Remove the line below links */
+  padding: 8px 12px; /* Add padding */
+}
+
+#header1 h5 a:hover {
+  background-color: #f2f2f2; /* Add hover background color */
+  color: rgb(229, 6, 6); /* Change text color on hover */
+}
+
+body {
+  background-color: grey; /* Set background color to grey */
+}
+
+#login {
+  text-align: center; /* Center align the content */
+  margin-top: 20vh; /* Move login section down to center */
+}
+
+#login h2 {
+  display: inline-block; /* Make the h2 an inline block */
+  background-color: white; /* Set background color to white */
+  border-radius: 5px; /* Add border radius with size of text */
+  padding: 5px 10px; /* Add padding */
+  margin: 0; /* Remove default margin */
+}
+
+#loginform label {
+  margin-top: 20px;
+  display: inline-block; /* Ensure labels are on the same line as inputs */
+  text-align: right; /* Align label text to the right */
+  margin-left: 1px; /* Add margin between label and input */
+}
+
+#loginform input {
+  margin: 3px; /* Add margin between inputs */
+  
+}
+
+button {
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center the button horizontally */
+  padding: 10px 20px; /* Add padding to button */
+  border-radius: 5px; /* Add border radius with size of text */
+  background-color: blue; /* Set background color to blue */
+  color: white; /* Set text color to white */
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(241, 9, 71); /* Change background color on hover */
+}

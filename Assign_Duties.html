@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Management System</title>
+    <link rel="stylesheet" href="tranportadmin.css">
+</head>
+<body>
+    <header id="header_1">
+        <img src="QAU-Logo.webp" alt="QAU-Logo" width="80">
+        <h1>Transport Management System</h1>
+    </header>
+    <header id="header_2">
+    <h3>Transport Adminstration</h3>
+    <h4><a href="Manage_Fuel.html">Manage Fuel</a></h4>
+    <h4><a href="Timetable.html">TimeTable</a></h4>
+    <h4><a href="Assign_Duties.html">Assign Duties</a></h4>
+    <h4><a href="Routes.html">Routes</a></h4>
+    <h4><a href="Reservations.html">Reservations</a></h4>
+    <h4><a href="Add_Conductor.html">Add Conductor</a></h4>
+    <h4><a href="tranpostadmin.html">Add Driver</a></h4>
+    </header> 
+    <h1>Assign Duties</h1>
+    <h3>Available Drivers:</h3>
+    <div class="drawer">
+        <details>
+            <summary><b>Show Drivers</b></summary>
+            <ul>
+                <li>ahsan</li>
+                <li>shoaib</li>
+                <li>mani</li>
+                <li>zain</li>
+            </ul>
+        </details>
+        <h3>Available Conductor:</h3>
+        <details>
+            <summary><b>Show Conductors</b></summary>
+            <ul>
+                <li>Available</li>
+                <li>zaib</li>
+                <li>hamayoun</li>
+                <li>hasan</li>
+            </ul>
+        </details>
+       
+    </div>
+    <br>
+    <div class="radio_button">
+        <label for="working">Working Extra time?</label>
+        <input type="radio" id="yes" name="group1" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="No" name="group1" value="No">
+        <label No="No">No</label>
+    </div>
+    <div id="assign">
+        <label for="Name">Name: Ahsan</label><br><br>
+    <!-- dynamically will be added -->
+    <form action="\action_page.php">
+        <label for="Route"><b>Route:</b></label>
+        <input type="text" name="route" id="route"><br><br>
+        <label for="Bus NO"><b>Bus No:</b></label>
+        <input type="number" name="busno" id="busno" min="1" max="50"><br><br>
+        <label for="time"><b>Time:</b></label>
+        <input type="time" name="time" id="time"><br><br>
+        <button>Assign</button>
+    </form>
+
+    </div>
+    
+    
+    
+</body>
+</html>

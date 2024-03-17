@@ -1,0 +1,63 @@
+/* CSS for Header */
+#header1 {
+  background-color: blue; /* Set background color to blue */
+  color: white; /* Set text color to white */
+  padding: 20px;
+  overflow: hidden; /* Clear floats */
+
+}
+
+#header1 h1 {
+  margin: 10px;
+  float: left;
+
+}
+body{
+  background-color: gray;
+}
+#header1 h5 {
+  margin: 0;
+  float: right; /* Align links to the right */
+}
+
+#header1 h5 a {
+  color: white; /* Set link color to white */
+  text-decoration: none;
+  border-bottom: none; /* Remove the line below links */
+  padding: 8px 12px; /* Add padding */
+}
+
+#header1 h5 a:hover {
+  background-color: #f2f2f2; /* Add hover background color */
+  color: rgb(229, 6, 6); /* Change text color on hover */
+}
+
+/* Additional CSS for Login Section */
+#login_user {
+  text-align: left;
+  margin-top: 20px; /* Adjust margin-top */
+  text-align: center;
+}
+
+#login_user h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#login_user h3 {
+  margin: 5px 0;
+  margin-bottom: 5px;
+}
+
+#login_user h3 a {
+  color: #333333;
+  text-decoration: none;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  background-color: white; /* Set background color to white */
+  padding: 4px 12px; /* Adjust padding */
+  display: inline-block; /* Ensure inline block display */
+}
+
+#login_user h3 a:hover {
+  color: #e60909;
+}

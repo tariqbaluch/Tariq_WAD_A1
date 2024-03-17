@@ -1,0 +1,56 @@
+#header1 {
+    background-color: blue; /* Set background color to blue */
+    color: white; /* Set text color to white */
+    padding: 20px;
+    overflow: hidden; /* Clear floats */
+  }
+  
+  #header1 h1 {
+    margin: 10px;
+    float: left;
+  }
+  
+  #header1 img {
+    float: left; /* Float the logo to the left */
+    margin-right: 10px; /* Add margin to the right of the logo */
+  }
+  
+  #header1 h5 {
+    margin: 0;
+    float: right; /* Align links to the right */
+  }
+  
+  #header1 h5 a {
+    color: white; /* Set link color to white */
+    text-decoration: none;
+    border-bottom: none; /* Remove the line below links */
+    padding: 8px 12px; /* Add padding */
+  }
+  
+  #header1 h5 a:hover {
+    background-color: #f2f2f2; /* Add hover background color */
+    color: rgb(229, 6, 6); /* Change text color on hover */
+  }
+  
+  body {
+    background-color: grey; /* Set background color to grey */
+  }
+  
+  #Contact_info {
+    margin-top: 20px; /* Add margin to the top of the contact information */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the contact information horizontally */
+    flex-direction: column; /* Arrange items in columns */
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Center text within the box */
+}
+
+.contact_box,h2,p {
+    margin-top: 4px;
+    margin-bottom: 4px; /* Add space between contact boxes */
+    padding-top: 10px; /* Add padding to the top of each contact box */
+}
+
+.contact_box img {
+    border-radius: 200%; /* Make the images circular */
+}

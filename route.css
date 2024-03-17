@@ -1,0 +1,156 @@
+/* CSS for Header 1 HTML Area */
+#header_1 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid white; /* Add border to separate headers */
+  }
+  
+  body {
+    background-color: gray;
+  }
+  
+  #header_1 h1 {
+    margin: 10px;
+    float: left;
+  }
+  
+  #header_1 img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  #header_1 h5 {
+    margin: 0;
+    float: right;
+  }
+  
+  #header_1 h5 a {
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 8px 12px;
+  }
+  
+  #header_1 h5 a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS for Header 2 HTML Area */
+  #header_2 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid white; /* Add border to separate headers */
+  }
+  
+  #header_2 h3 {
+    margin: 10px;
+    float: left;
+    color: black; /* Set color to black for h3 */
+    padding-top: 10px;
+  }
+  
+  #header_2 h4 {
+    margin: 0;
+    float: left; /* Adjust to align h4 elements in the same row */
+  }
+  
+  #header_2 h4 a {
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 8px 12px;
+  }
+  
+  #header_2 h4 a:hover {
+    background-color: #f2f2f2;
+    color: rgb(229, 6, 6);
+  }
+/* CSS for Form */
+form {
+    text-align: left; /* Align form elements to the left */
+  }
+  
+  form label {
+    display: inline-block; /* Ensure labels are on the same line */
+    margin-bottom: 5px; /* Add margin bottom */
+  }
+  
+  form input[type="radio"] {
+    display: inline-block; /* Display radio buttons in the same row */
+    vertical-align: middle; /* Align radio buttons vertically */
+    margin-right: 5px; /* Add margin between radio buttons and labels */
+  }
+  
+  form button {
+    display: block; /* Make the button a block element */
+    margin: 10px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Add padding to button */
+    border-radius: 5px; /* Add border radius */
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+  }
+  
+/* Additional CSS for the specific form in this HTML */
+form label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 5px; /* Add margin bottom for labels */
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"] {
+    width: 200px; /* Set width for input fields */
+    padding: 8px; /* Adjust padding for input fields */
+    margin: 5px 10px; /* Add margin for input fields */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+form button {
+    display: block; /* Make the button a block element */
+    margin: 10px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Adjust padding for the button */
+    border-radius: 5px; /* Add border radius */
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    border: none; /* Remove border */
+}
+
+form button:hover {
+    background-color: red; /* Change background color on hover to red */
+}
+#header3 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid white; /* Add border to separate headers */
+}
+
+#header3 h2 {
+    margin: 10px;
+    float: left;
+    color: black; /* Set color to black for h2 */
+    padding-top: 10px;
+}
+
+#header3 h4 {
+    margin: 0;
+    float: left; /* Adjust to align h4 elements in the same row */
+}
+
+#header3 h4 a {
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 8px 12px;
+}
+
+#header3 h4 a:hover {
+    background-color: #f2f2f2;
+    color: rgb(229, 6, 6);
+}
